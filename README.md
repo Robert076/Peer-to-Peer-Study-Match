@@ -1,1 +1,3 @@
 # Peer-to-Peer-Study-Match
+
+This project implements a peer-to-peer (P2P) study match system using Python. The server (server.py) maintains a list of active users connected via TCP, facilitating initial user discovery and management. Once users are active, the client (client.py) handles direct communication via UDP with other clients, enabling a decentralized and efficient peer-to-peer interaction. Users can "match" with others based on shared interests, overlapping schedules for the week, and compatible learning styles. If all criteria are met, the program identifies the users as a good match for studying together; otherwise, it indicates no match.
